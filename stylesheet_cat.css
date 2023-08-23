@@ -1,4 +1,11 @@
-.grid2-1-1-1{
+header a{
+    text-decoration: none;
+}
+.brandlist{
     display: grid;
-
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.brandlist a{
+    text-decoration: none;
 }
