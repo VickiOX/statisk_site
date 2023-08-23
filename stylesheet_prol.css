@@ -9,6 +9,8 @@ header a{
 
 img{
     max-width: 300px;
+    border: 1 px,;
+
  
 }
 .brandlist a{
@@ -18,3 +20,45 @@ img{
     font-weight: bold;
 }   
 
+.productText{
+    color:grey;
+    font-size: 22px;
+}
+
+.price, a{
+    font-size:20px;
+}
+.price{
+    font-weight: 500;
+}
+
+.disccount .disc_text{
+    font-weight: 500;
+    color:  rgb(219, 61, 9);
+}
+#procent1, #procent2{
+    position: absolute;
+    top:20px;
+    left:0px;
+    font-weight: 900;
+    font-size: 24px;
+    background-color: rgb(219, 61, 9);
+    padding: 5px 10px 5px 10px;
+}
+
+.productInfo{
+    position: relative;
+}
+
+.soldOut img{
+    opacity: 40%;
+}
+
+.soldOut_Text{
+    position: absolute;
+    top:170px;
+    left:110px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(87, 87, 87);
+}
