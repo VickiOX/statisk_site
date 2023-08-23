@@ -1,4 +1,47 @@
-.grid_1-10-1{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300;400;500;600;700&display=swap');
+
+header a{
+   text-decoration: none;
+}
+
+/*
+font-family: 'Teko', sans-serif; overskrift
+font-family: 'Roboto', sans-serif; brødtext
+
+*/
+
+h1, h2{
+    font-family: 'Teko', sans-serif;
+    color:rgb(12, 12, 78);
+    font-style: italic;
+   
+    
+}
+h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+p, h1, h2{
+margin-left: 40px;
+}
+
+h2{
+    padding: 20px 0 40px 0;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.opdeling{
     display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-columns: 30px 8fr 30px;
+}
+p, a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+li {
+    list-style-type:none;
+    padding-bottom: 10px;
 }

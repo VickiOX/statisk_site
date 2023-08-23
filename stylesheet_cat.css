@@ -8,4 +8,10 @@ header a{
 }
 .brandlist a{
     text-decoration: none;
+    font-size: 22px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color:rgb(58, 58, 68)
+  
 }
