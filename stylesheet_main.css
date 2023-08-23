@@ -10,25 +10,28 @@ font-family: 'Roboto', sans-serif; brødtext
 
 */
 
-h1, h2{
+h1, h2, h3 {
     font-family: 'Teko', sans-serif;
     color:rgb(12, 12, 78);
-    font-style: italic;
-   
-    
+}
+h1, h2{
+   font-style: italic;
 }
 h1{
     font-size: 60px;
     font-weight: 800;
 }
-p, h1, h2{
+.opdeling p, h1, h2{
 margin-left: 40px;
 }
-
 h2{
     padding: 20px 0 40px 0;
     font-weight: 500;
     font-size: 40px;
+}
+h3{
+   font-size: 28px;
+   font-weight: 400;
 }
 
 .opdeling{
