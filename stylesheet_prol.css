@@ -1,0 +1,13 @@
+.grid_1-1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+header a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 380px;
+ 
+}
