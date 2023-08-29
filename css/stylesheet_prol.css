@@ -13,12 +13,17 @@ img{
 
  
 }
-.brandlist a{
+.catlist a{
     font-size: 22px;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-}   
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}  
+
+
 
 .productText{
     color:grey;
