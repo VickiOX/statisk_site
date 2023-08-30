@@ -1,5 +1,5 @@
 fetch("https://kea-alt-del.dk/t7/api/categories/")
-.then((res) => re.json())
+.then((res) => res.json())
 .then(showCategories)
 
 function showCategories(cats){
