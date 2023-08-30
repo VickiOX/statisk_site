@@ -1,26 +1,27 @@
 .grid_1-1-1-1{
+    max-width: 2000px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-left: 30px;
+    grid-template-columns: repeat(auto-fill, 400px);
+    gap: 1rem;
+    justify-content: space-between;
+
 }
 header a{
     text-decoration: none;
 }
 
 img{
-    max-width: 300px;
+    max-width: 100%;
     border: 1 px,;
 
  
 }
 .catlist a{
     font-size: 22px;
-    justify-content: center;
+   
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }  
-
-
 
 .productText{
     color:grey;
@@ -50,6 +51,8 @@ img{
 
 .productInfo{
     position: relative;
+    min-width: 300px;
+    
 }
 
 .soldOut img{
@@ -58,7 +61,7 @@ img{
 
 .soldOut_Text{
     position: absolute;
-    top:170px;
+    top:220px;
     left:50px;
     font-size: 20px;
     font-weight: 600;
