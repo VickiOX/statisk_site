@@ -4,7 +4,6 @@
     grid-template-columns: repeat(auto-fill, 400px);
     gap: 1rem;
     justify-content: space-between;
-
 }
 header a{
     text-decoration: none;

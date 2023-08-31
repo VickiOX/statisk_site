@@ -10,6 +10,7 @@ console.log(product);
 document.querySelector(".shortcut .displayname p").textContent=product.productdisplayname;
 document.querySelector(".buyBox h3").textContent=product.productdisplayname;
 document.querySelector(".buyBox .brand").textContent=product.brandname;
+document.querySelector(".buyBox .subcat").textContent=product.subcategory;
 document.querySelector(".infoPro .displayname").textContent=product.productdisplayname;
 document.querySelector(".infoPro .color").textContent=product.basecolour;
 document.querySelector(".infoPro .invNumber").textContent=product.id;
